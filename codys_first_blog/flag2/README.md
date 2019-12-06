@@ -38,6 +38,7 @@ Add a new comment to read index.php.
 
 And approve it in admin page.
 
+
 ![](./imgs/approve.jpg)
 
 ## 0x03 FLAG
@@ -45,6 +46,8 @@ And approve it in admin page.
 Press **F12** to check the source again.
 
 ![](./imgs/flag.jpg)
+
+http://{ctf}/?page=http://127.0.0.1/index will execute the php we've written and approved in the comments! 
 
 It print out the whole index.php file.
 
